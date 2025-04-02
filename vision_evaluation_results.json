@@ -1,0 +1,258 @@
+{
+  "metrics": {
+    "precision": 0.6666666666666666,
+    "recall": 0.4444444444444444,
+    "f1": 0.5333333333333333,
+    "accuracy": 0.7941176470588235,
+    "true_positive": 4,
+    "false_positive": 2,
+    "false_negative": 5,
+    "true_negative": 23,
+    "total": 34
+  },
+  "results": [
+    {
+      "id": "1866825703",
+      "predicted": "out_of_scope",
+      "expected": "out_of_scope"
+    },
+    {
+      "id": "1852630532",
+      "predicted": "out_of_scope",
+      "expected": "out_of_scope"
+    },
+    {
+      "id": "1851682998",
+      "predicted": "out_of_scope",
+      "expected": "out_of_scope"
+    },
+    {
+      "id": "1862978563",
+      "predicted": "out_of_scope",
+      "expected": "out_of_scope"
+    },
+    {
+      "id": "1862958257",
+      "predicted": "out_of_scope",
+      "expected": "out_of_scope"
+    },
+    {
+      "id": "1614974825",
+      "predicted": "etsy.childrens_drawstrings",
+      "expected": "etsy.childrens_drawstrings"
+    },
+    {
+      "id": "1825439356",
+      "predicted": "etsy.childrens_drawstrings",
+      "expected": "etsy.childrens_drawstrings"
+    },
+    {
+      "id": "1613556897",
+      "predicted": "out_of_scope",
+      "expected": "out_of_scope"
+    },
+    {
+      "id": "1819328336",
+      "predicted": "etsy.childrens_drawstrings",
+      "expected": "out_of_scope"
+    },
+    {
+      "id": "1677272342",
+      "predicted": "out_of_scope",
+      "expected": "out_of_scope"
+    },
+    {
+      "id": "1839704330",
+      "predicted": "out_of_scope",
+      "expected": "out_of_scope"
+    },
+    {
+      "id": "1841617315",
+      "predicted": "etsy.childrens_drawstrings",
+      "expected": "etsy.childrens_drawstrings"
+    },
+    {
+      "id": "1849806299",
+      "predicted": "out_of_scope",
+      "expected": "etsy.childrens_drawstrings"
+    },
+    {
+      "id": "1849232975",
+      "predicted": "out_of_scope",
+      "expected": "etsy.childrens_drawstrings"
+    },
+    {
+      "id": "1837247004",
+      "predicted": "out_of_scope",
+      "expected": "out_of_scope"
+    },
+    {
+      "id": "1833987284",
+      "predicted": "etsy.childrens_drawstrings",
+      "expected": "etsy.childrens_drawstrings"
+    },
+    {
+      "id": "1858393427",
+      "predicted": "out_of_scope",
+      "expected": "out_of_scope"
+    },
+    {
+      "id": "1866826887",
+      "predicted": "out_of_scope",
+      "expected": "out_of_scope"
+    },
+    {
+      "id": "1852626418",
+      "predicted": "out_of_scope",
+      "expected": "out_of_scope"
+    },
+    {
+      "id": "1848630234",
+      "predicted": "out_of_scope",
+      "expected": "out_of_scope"
+    },
+    {
+      "id": "1848633162",
+      "predicted": "out_of_scope",
+      "expected": "out_of_scope"
+    },
+    {
+      "id": "1848642578",
+      "predicted": "out_of_scope",
+      "expected": "out_of_scope"
+    },
+    {
+      "id": "1848647638",
+      "predicted": "out_of_scope",
+      "expected": "out_of_scope"
+    },
+    {
+      "id": "1848496494",
+      "predicted": "out_of_scope",
+      "expected": "out_of_scope"
+    },
+    {
+      "id": "1863157857",
+      "predicted": "out_of_scope",
+      "expected": "out_of_scope"
+    },
+    {
+      "id": "1849086844",
+      "predicted": "out_of_scope",
+      "expected": "out_of_scope"
+    },
+    {
+      "id": "1864171025",
+      "predicted": "out_of_scope",
+      "expected": "etsy.childrens_drawstrings"
+    },
+    {
+      "id": "1864323687",
+      "predicted": "out_of_scope",
+      "expected": "out_of_scope"
+    },
+    {
+      "id": "1864808615",
+      "predicted": "out_of_scope",
+      "expected": "etsy.childrens_drawstrings"
+    },
+    {
+      "id": "1864866373",
+      "predicted": "etsy.childrens_drawstrings",
+      "expected": "out_of_scope"
+    },
+    {
+      "id": "1851460586",
+      "predicted": "out_of_scope",
+      "expected": "out_of_scope"
+    },
+    {
+      "id": "1851566946",
+      "predicted": "out_of_scope",
+      "expected": "out_of_scope"
+    },
+    {
+      "id": "1865868703",
+      "predicted": "out_of_scope",
+      "expected": "out_of_scope"
+    },
+    {
+      "id": "1661746182",
+      "predicted": "out_of_scope",
+      "expected": "etsy.childrens_drawstrings"
+    }
+  ],
+  "error_analysis": {
+    "false_positive_ids": [
+      "1819328336",
+      "1864866373"
+    ],
+    "false_negative_ids": [
+      "1849806299",
+      "1849232975",
+      "1864171025",
+      "1864808615",
+      "1661746182"
+    ]
+  },
+  "iteration_history": {
+    "best_iteration": 0,
+    "metrics_by_iteration": [
+      {
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1": 0.8,
+        "accuracy": 0.9,
+        "true_positive": 4,
+        "false_positive": 0,
+        "false_negative": 2,
+        "true_negative": 14,
+        "total": 20
+      },
+      {
+        "precision": 0.75,
+        "recall": 0.5,
+        "f1": 0.6,
+        "accuracy": 0.8,
+        "true_positive": 3,
+        "false_positive": 1,
+        "false_negative": 3,
+        "true_negative": 13,
+        "total": 20
+      },
+      {
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6666666666666666,
+        "accuracy": 0.85,
+        "true_positive": 3,
+        "false_positive": 0,
+        "false_negative": 3,
+        "true_negative": 14,
+        "total": 20
+      },
+      {
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6666666666666666,
+        "accuracy": 0.85,
+        "true_positive": 3,
+        "false_positive": 0,
+        "false_negative": 3,
+        "true_negative": 14,
+        "total": 20
+      }
+    ],
+    "hypotheses": [
+      "## ERROR ANALYSIS\n\n1. **Category Misalignment**: Both false negatives are categorized under \"clothing.gender_neutral_adult_clothing.hoodies_and_sweatshirts.sweatshirts,\" which suggests that the model may be misclassifying items intended for children as adult clothing.\n   \n2. **Lack of Size Information**: The descriptions and titles of the listings do not explicitly mention the sizes of the clothing items. This absence of size information could lead the model to assume these are adult-sized garments, thus missing potential violations.\n\n3. **Ambiguous Keywords**: The keywords and descriptions include terms like \"family,\" \"kids,\" and \"baby,\" which might suggest children's clothing, but the model may not be effectively leveraging these cues to identify potential violations.\n\n4. **Image Analysis Limitations**: The images provided do not clearly indicate the presence of drawstrings or the intended age group, which could contribute to the model's inability to detect violations.\n\n## HYPOTHESIS\n\nThe model is likely making these errors due to a combination of factors: it may be overly reliant on the category label, which is misleading in these cases, and it may not be effectively utilizing textual cues from descriptions and keywords that suggest the items could be for children. Additionally, the lack of explicit size information and potential limitations in image analysis capabilities may prevent the model from accurately identifying items that violate the safety policy.\n\n## SUGGESTED GUIDELINES\n\n1. **Incorporate Size Detection**: Enhance the model's ability to detect and interpret size information from both the title and description fields. This could involve training the model to recognize common size indicators (e.g., \"2T,\" \"4T,\" \"kids,\" \"children's sizes\") and flagging items that fall within the prohibited size range.\n\n2. **Leverage Keyword Context**: Improve the model's sensitivity to keywords that suggest children's clothing, such as \"kids,\" \"baby,\" \"child,\" \"toddler,\" and \"youth.\" These should trigger a more detailed analysis of the listing for potential violations.\n\n3. **Image Analysis Enhancement**: Develop or integrate more advanced image analysis techniques to identify visual cues of drawstrings and assess the likely age group of the clothing based on design and size proportions.\n\n4. **Category Cross-Verification**: Implement a cross-verification system where items categorized as adult clothing but containing child-related keywords or descriptions are flagged for manual review to ensure compliance with the safety policy.\n\n5. **Explicit Size Requirement**: Encourage or require sellers to include explicit size information in their listings. Listings without clear size information should be flagged for further review to prevent misclassification.",
+      "## ERROR ANALYSIS\n\n1. **False Positives**:\n   - The false positive example is an adult hoodie that was incorrectly classified as a violation. The product is clearly labeled as adult clothing in both the category and description, and the title mentions it is for \"Adults and Kids,\" which might have confused the model.\n\n2. **False Negatives**:\n   - The false negatives include products that are described as suitable for both adults and youth, or specifically mention youth sizes. These listings do not explicitly state the presence of drawstrings, but the model failed to flag them as potential violations. The descriptions focus on themes like family matching or school events, which might have distracted the model from identifying potential safety violations.\n\n## HYPOTHESIS\n\nThe model is likely making these errors due to a few key reasons:\n- **Ambiguity in Age Group**: The model struggles to differentiate between adult and children's clothing when listings mention both age groups or use terms like \"youth\" without clear size specifications.\n- **Focus on Themes Over Features**: The model may be overly influenced by thematic keywords (e.g., \"family,\" \"school\") and not sufficiently focused on identifying specific features like drawstrings.\n- **Lack of Explicit Drawstring Mention**: The model may not be effectively identifying drawstrings when they are not explicitly mentioned in the description or title, relying too heavily on the presence of certain keywords.\n\n## SUGGESTED GUIDELINES\n\n1. **Explicit Age Group Identification**: Ensure that the model prioritizes explicit age group identifiers (e.g., \"adult,\" \"youth,\" \"kids\") in both the category and description fields to better distinguish between adult and children's clothing.\n\n2. **Drawstring Feature Emphasis**: Enhance the model's ability to detect drawstrings by training it to recognize common phrases and synonyms related to drawstrings, even when not explicitly mentioned, such as \"hood,\" \"waistband,\" or \"adjustable.\"\n\n3. **Size Range Clarification**: Implement a rule that flags listings mentioning youth sizes or ranges (e.g., \"2T to 16\") as potential violations, especially when combined with terms like \"hoodie\" or \"sweatshirt.\"\n\n4. **Thematic Keyword De-emphasis**: Reduce the weight of thematic keywords (e.g., \"family,\" \"school\") in the model's decision-making process to prevent distraction from safety-related features.\n\n5. **Image Analysis Integration**: Incorporate image analysis to identify drawstrings visually, providing an additional layer of verification when textual descriptions are ambiguous or lacking.",
+      "## ERROR ANALYSIS\n\n1. **Category Misalignment**: All false negatives are categorized under \"clothing.gender_neutral_adult_clothing.hoodies_and_sweatshirts.sweatshirts,\" which suggests that the model may be misclassifying items based on their category rather than their actual features or descriptions.\n\n2. **Age and Size Ambiguity**: The descriptions and titles of the listings do not explicitly mention children's sizes or age ranges, which may lead the model to incorrectly assume these are adult items, even though they include terms like \"youth sizes\" or \"kids shirt.\"\n\n3. **Keyword Confusion**: The keywords and descriptions contain terms like \"youth,\" \"kids,\" and \"mommy and me,\" which indicate potential children's items, but the model may not be effectively using these cues to classify the items correctly.\n\n4. **Image Analysis Limitations**: The images provided do not clearly show the presence or absence of drawstrings, which could be a critical factor in determining policy violations. The model might be overly reliant on textual data without sufficient image analysis.\n\n## HYPOTHESIS\n\nThe model is likely making these errors due to a combination of factors: it may be overly reliant on category labels and not effectively parsing textual cues that indicate the presence of children's sizes or age ranges. Additionally, the model might not be adequately analyzing images to detect drawstrings, leading to missed violations. The lack of explicit size or age information in the descriptions and titles further complicates the model's ability to correctly classify these listings.\n\n## SUGGESTED GUIDELINES\n\n1. **Explicit Size and Age Detection**: Enhance the model's ability to detect and prioritize keywords related to children's sizes (e.g., \"youth,\" \"kids,\" \"2T-16\") in both titles and descriptions to better identify potential violations.\n\n2. **Image Analysis Enhancement**: Improve the model's capability to analyze images for the presence of drawstrings, especially focusing on the neck and waist areas, to complement textual analysis.\n\n3. **Category Contextualization**: Implement a rule that cross-references category labels with detected keywords and descriptions to ensure that items potentially for children are not misclassified as adult clothing.\n\n4. **Keyword Prioritization**: Develop a system to prioritize certain keywords (e.g., \"mommy and me,\" \"youth sizes\") that suggest children's clothing, prompting a more detailed review of these listings.\n\n5. **Description Parsing for Context**: Train the model to better parse and understand context from descriptions, especially when they mention family or matching sets, which could imply children's involvement, thus requiring further scrutiny for policy compliance."
+    ],
+    "guidelines_by_iteration": [
+      "",
+      "",
+      "",
+      ""
+    ]
+  }
+}
